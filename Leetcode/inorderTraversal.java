@@ -12,8 +12,8 @@ public class inorderTraversal {
         List<Integer> result = new ArrayList<Integer>();
         Deque<TreeNode> stack = new LinkedList<TreeNode>();
         TreeNode cur = root;
-        while (cur != null || !stack.isEmpty()){
-            if (cur != null){
+        while (cur != null || !stack.isEmpty()) {
+            if (cur != null) {
                 stack.offerFirst(cur);
                 cur = cur.left;
             } else {

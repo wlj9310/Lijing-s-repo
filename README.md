@@ -1,2 +1,0 @@
-# Lijing-s-repo
-

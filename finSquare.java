@@ -1,6 +1,6 @@
 //找最大空心正方形
 //Given a matrix where every element is either '0' or '1', find the largest subsquare surrounded by '1'
-public class Solution {
+public class findSquare {
 	public int findSquare(int[][] matrix) {
 		if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
 			return 0;

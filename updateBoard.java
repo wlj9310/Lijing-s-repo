@@ -28,6 +28,7 @@ public class updateBoard {
                         if (i >= 0 && i < board.length && j >= 0 && j < board[0].length) {
                             if (board[i][j] == 'E') {
                                 q.offer(new int[]{i, j});
+                                board[i][j] = 'B';
                             } 
                         }
                     }
